@@ -50,7 +50,6 @@ body{
 }
 .s1 button{
     background-image: linear-gradient(to right, white , rgb(85, 85, 213));
-     
 }
 .s1 button:hover{
     box-shadow: 0 0 8px 8px rgb(85, 85, 213);
@@ -171,17 +170,36 @@ body{
         background:#033E6A;
         width: 100%;
     }
+    .logoimg img{
+        margin-left: 3rem;
+    }
     .footer{
         display: none;
     }
     .span img{
         display: none;
     }
-    .boyimg1 {
-        opacity: 0.3;
+    .boyimg1 img{
+        width: 10rem;
+        margin-top: 2rem;
     }
     .headerrightimg{
+        /* display: none; */
+        opacity: 0.8;
+    }
+    
+    .boyimg1{
         display: none;
+        margin-top: 10rem;
+        /* margin-bottom: 2rem; */
+    }
+    .socialmedia{
+        margin-top: 1px;
+    }
+    .socialmedia button{
+        /* margin-top: 5rem; */
+        width: 20rem;
+        margin-right: -2rem;
     }
 }
 .s1 a:link {
