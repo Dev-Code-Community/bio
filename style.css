@@ -138,6 +138,22 @@ body{
     color: #000000;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.s7 button img{
+    width: 3rem;
+    float: left;
+    margin-left: -39px;
+    margin-top: 3px;
+}
+.s7 button{
+    background-image: linear-gradient(89.8deg, #dcb9bd 9.61%, #ea2922 103.22%);
+}
+.s7 button:hover{
+    box-shadow: 0 0 8px 8px rgb(201, 30, 17);
+}
+.s7 p{
+    color: #000000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .boyimg span{
     float: right;
     margin-top: -22rem ;
@@ -275,5 +291,17 @@ body{
     text-decoration: none;
 } 
 .s5  a:active {
+    text-decoration: none;
+}
+.s7 a:link {
+    text-decoration: none;
+}  
+.s7 a:visited {
+    text-decoration: none;
+} 
+.s7 a:hover {
+    text-decoration: none;
+} 
+.s7  a:active {
     text-decoration: none;
 }
